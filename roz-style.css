@@ -4,8 +4,10 @@ body {
   background-position: center;
   display: grid;
   grid-template-columns: 1fr;
-  margin: 300px;
+  margin: 100px auto;
+  max-width: 1200px;
 }
 div {
   background-color: gray;
+  border-radius: 2rem;
 }
