@@ -1,0 +1,11 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 300px;
+}
+div {
+  background-color: gray;
+}
