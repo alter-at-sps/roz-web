@@ -6,8 +6,40 @@ body {
   grid-template-columns: 1fr;
   margin: 100px auto;
   max-width: 1200px;
+
+  font-family: "Charm", cursive;
+  font-weight: 500;
 }
+
 div {
   background-color: gray;
   border-radius: 2rem;
+}
+
+/* nav bar */
+#nav-bar {
+  display: flex;
+  gap: 0.5rem;
+
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+  justify-content: right;
+  list-style-type: none;
+
+  background-color: #9ea084;
+  border-radius: 1rem;
+
+  padding: 0.25rem;
+}
+
+.nav-item {
+  padding: 0.2rem;
+
+  background-color: #eff577;
+  border-radius: 1rem;
+
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 600;
 }
