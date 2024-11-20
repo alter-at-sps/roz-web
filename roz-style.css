@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr / span 2fr;
   margin: 100px auto;
   max-width: 1200px;
 
@@ -12,8 +12,17 @@ body {
 }
 
 div {
-  background-color: gray;
+  background-color: rgb(253 240 223);
   border-radius: 2rem;
+  padding: 2rem;
+}
+header {
+  max-height: 50px;
+}
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* nav bar */
@@ -40,6 +49,6 @@ div {
   background-color: #eff577;
   border-radius: 1rem;
 
-  font-family: "Fleur De Leah", cursive;
+  font-family: "Charm", cursive;
   font-weight: 600;
 }
