@@ -17,10 +17,31 @@ main {
   background-color: rgb(253, 240, 223);
   border-radius: 2rem;
   padding: 2rem;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
-header {
-  max-height: 50px;
+.jidlo {
+  background-color: rgb(230, 207, 178);
+  margin: 1fr;
+  font-size: larger;
+  padding: 15px;
+  border-radius: 2rem;
+  height: 200px;
 }
+.footer {
+  background-color: rgb(230, 207, 178);
+  margin: 1fr;
+  font-size: larger;
+  padding: 20px;
+  border-radius: 2rem;
+  height: 200px;
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 #logo {
   position: absolute;
   top: 0;
