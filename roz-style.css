@@ -66,6 +66,14 @@ header {
   color: #900017;
 }
 
+.knt-item {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  color: #900017;
+  display: flex;
+  row-gap: 1rem;
+}
+
 .knt-li {
   color: #553b22;
   list-style-type: none;
@@ -76,4 +84,10 @@ header {
   color: #553b22;
   list-style-type: none;
   padding-left: 1rem;
+}
+
+article {
+  text-align: center;
+
+  grid-row: 3 / span 4;
 }
