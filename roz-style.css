@@ -21,6 +21,10 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  font-family: "Charm", cursive;
+  font-weight: 500;
+
+  color: #553b22;
 }
 .jidlo {
   background-color: rgb(230, 207, 178);
@@ -42,6 +46,21 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+main > * {
+  animation: fadein 1.2s;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s;
+
+  color: #900017;
+}
+
+a:hover {
+  color: #ff8095;
+}
+
 #logo {
   position: absolute;
   top: 0;
@@ -49,6 +68,7 @@ main {
 }
 
 /* nav bar */
+
 #nav-bar {
   display: flex;
   gap: 0.8rem;
@@ -60,8 +80,8 @@ main {
   justify-content: right;
   list-style-type: none;
 
-  background-color: #9ea084;
-  border-radius: 1rem;
+  background-color: #babe84;
+  border-radius: 2rem;
 
   padding: 0.25rem 0.8rem;
   margin: 2rem 0;
@@ -70,14 +90,17 @@ main {
 .nav-item {
   padding: 0.2rem 0.5rem;
 
-  background-color: #eff577;
+  background-color: rgb(253, 240, 223);
   border-radius: 1rem;
 
   font-family: "Charm", cursive;
   font-weight: 600;
+
+  font-size: larger;
 }
 
-#kontakt {
+#kontakt,
+.header-text {
   font-size: 2.5rem;
   padding-bottom: 1rem;
   padding-left: 0.5rem;
@@ -99,13 +122,29 @@ main {
 }
 
 .knt-li {
-  color: #553b22;
   list-style-type: none;
   padding-left: 1rem;
 }
 
 .knt-li2 {
-  color: #553b22;
   list-style-type: none;
   padding-left: 1rem;
+}
+
+#uvod-list {
+  list-style-type: none;
+  animation: fadein 1.2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.uvod-item {
+  padding: 2.5rem 0;
 }
