@@ -88,9 +88,3 @@ header {
   list-style-type: none;
   padding-left: 1rem;
 }
-
-article {
-  text-align: center;
-
-  grid-row: 3 / span 4;
-}
