@@ -18,14 +18,19 @@ main {
   border-radius: 2rem;
   padding: 2rem;
   height: 1000px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+
   gap: 20px;
   font-family: "Charm", cursive;
   font-weight: 500;
 
   color: #553b22;
 }
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .jidlo {
   background-color: rgb(230, 207, 178);
   margin: 1fr;
