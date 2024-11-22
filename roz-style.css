@@ -112,7 +112,8 @@ a:hover {
   color: #900017;
 }
 
-.knt-item {
+.knt-item,
+.nov-item {
   font-size: 1.5rem;
   padding-left: 0.5rem;
   color: #900017;
